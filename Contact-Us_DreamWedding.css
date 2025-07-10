@@ -1,0 +1,77 @@
+/* Contact Us Section */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Contact Form Styling */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-btn {
+    background-color: #d94a6a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #ff6a85;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.contact-info p {
+    color: #666;
+    font-size: 1em;
+}
+
+.social-media a {
+    color: #d94a6a;
+    font-weight: bold;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff6a85;
+}

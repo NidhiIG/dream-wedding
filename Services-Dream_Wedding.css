@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #f3a6d1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #49cbba;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #faab9a;
+    padding: 10px 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #f2ce1b;
+    font-size: 1.5em;
+}
+
+*/ Caterer Categories */
+
+.caterer-categories {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.caterer-categories h3 {
+    color: #49cbb3;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.category {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.category h4 {
+    font-size: 1.4em;
+    color: #f2ce1b;
+    margin-bottom: 5px;
+}
+
+.category p {
+    font-size: 1em;
+    color: #555;
+}
+
+.floral-section {
+    background-size: cover;
+    background-position: center;
+    color: black; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f3a6d1;
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category {
+        padding: 15px;
+    }
+}
+
+/* Other CSS code remains the same */

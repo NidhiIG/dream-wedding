@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Wedding</title>
+    <link rel="stylesheet" href="Services-Dream_Wedding.css">
+</head>
+<body>
+    <header>
+        <h1>Dream Wedding</h1>
+        <p>Your one-stop destination for all wedding needs</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#makeup" onclick="showSection('makeup')">Makeup Artist</a></li>
+            <li><a href="#mehndi" onclick="showSection('mehndi')">Mehndi Artist</a></li>
+            <li><a href="#choreographer" onclick="showSection('choreographer')">Choreographer</a></li>
+            <li><a href="#photographer" onclick="showSection('photographer')">Photographer</a></li>
+            <li><a href="#planner" onclick="showSection('planner')">Event Planner</a></li>
+            <li><a href="#caterer" onclick="showSection('caterer')">Caterer</a></li>
+            <li><a href="#floral" onclick="showSection('floral')">Floral Decoration</a></li>
+            <li><a href="#jewelry" onclick="showSection('jewelry')">Jewelry</a></li>
+            <li><a href="#venue" onclick="showSection('venue')">Venue</a></li>
+            <li><a href="#boutique" onclick="showSection('boutique')">Boutique</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="makeup" class="hidden">
+            <h2>Makeup Artist</h2>
+            <p>Contact: makeup@example.com | Phone: 123-456-7890 | Address: 123 Bridal Ave.</p>
+        </section>
+
+        <section id="mehndi" class="hidden">
+            <h2>Mehndi Artist</h2>
+            <p>Contact: mehndi@example.com | Phone: 987-654-3210 | Address: 456 Henna St.</p>
+        </section>
+
+        <section id="choreographer" class="hidden">
+            <h2>Choreographer</h2>
+            <p>Contact: dance@example.com | Phone: 234-567-8901 | Address: 789 Dance Blvd.</p>
+        </section>
+
+        <section id="photographer" class="hidden">
+            <h2>Photographer</h2>
+            <p>Contact: photos@example.com | Phone: 345-678-9012 | Address: 101 Snapshot Lane.</p>
+            <p>Contact: krishnawarke14@gmail.com | Phone: 9112046338 | Address: MIT-WPU, Pune.</p>
+        </section>
+
+        <section id="planner" class="hidden">
+            <h2>Event Planner</h2>
+            <p>Contact: planning@example.com | Phone: 456-789-0123 | Address: 202 Celebration Rd.</p>
+        </section>
+
+        <section id="caterer" class="hidden">
+
+            <!-- Caterer Categories -->
+            <div class="caterer-categories">
+                <h3>Our Catering Options</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#Veg" onclick="showSection('Veg')">Veg</a></li>
+                        <li><a href="#Non-Veg" onclick="showSection('non-veg')">Non-Veg</a></li>
+                        <li><a href="#Both" onclick="showSection('both Veg & non-veg')">Both</a></li>
+                        <li><a href="#party" onclick="showSection('party')">Party</a></li>
+                    </ul>
+                </nav>
+
+                <main>
+                <!-- Veg Section -->
+                    <section id="Veg" class="hidden">
+                        <h4>Veg</h4>
+                        <p>Delicious vegetarian dishes crafted with fresh, seasonal ingredients for a memorable experience.</p>
+                        <p><strong>Menu Highlights:</strong></p>
+                        <ul>
+                            <li>Paneer Tikka</li>
+                            <li>Veg Biryani</li>
+                            <li>Mixed Vegetable Curry</li>
+                            <li>Gulab Jamun</li>
+                        </ul> 
+                    </section>
+
+                <!-- Non-Veg Section -->
+                    <section id="Non-Veg" class="hidden">
+                        <h4>Non-Veg</h4>
+                        <p>A wide selection of non-vegetarian delicacies including chicken, lamb, and seafood, prepared to perfection.</p>
+                        <p><strong>Menu Highlights:</strong></p>
+                        <ul>
+                            <li>Chicken Tandoori</li>
+                            <li>Lamb Biryani</li>
+                            <li>Butter Chicken</li>
+                            <li>Fish Curry</li>
+                        </ul>
+                    </section> 
+
+                <!-- Both Veg and Non-Veg Section -->
+                <section id="Both" class="hidden">
+                    <h4>Both Veg and Non-Veg</h4>
+                    <p>Combining the best of both worlds, we offer a balanced menu featuring vegetarian and non-vegetarian dishes.</p>
+                    <p><strong>Menu Highlights:</strong></p>
+                    <ul>
+                        <li>Paneer Butter Masala</li>
+                        <li>Chicken Tikka Masala</li>
+                        <li>Veg Pulav</li>
+                        <li>Chicken Biryani</li>
+                    </ul>
+                </section> 
+                
+                <!-- Party Section -->
+                <section id="Party" class="hidden">
+                    <h4>party</h4>
+                    <p>Ideal for party events, with an array of appetizers, finger foods, and full-course meals to delight your guests</p>
+                    <p><strong>Menu Highlights:</strong></p>
+                    <ul>
+                        <li>Spring Rolls</li>
+                        <li>Mini Pizzas</li>
+                        <li>Barbecue Skewers</li>
+                        <li>Chocolate Fondue</li>
+                    </ul>
+                </section> 
+                </main>
+            </div>
+        </section>
+
+        <section id="floral" class="hidden">
+            <h2>Floral Decoration</h2>
+            <p>Contact: flowers@example.com | Phone: 678-901-2345 | Address: 404 Bloom St.</p>
+        </section>
+
+        <section id="jewelry" class="hidden">
+            <h2>Jewelry</h2>
+            <p>Contact: jewels@example.com | Phone: 789-012-3456 | Address: 505 Petal Dr.</p>
+        </section>
+
+        <section id="boutique" class="hidden">
+            <h2>Boutique</h2>
+            <p>Contact: boutique@example.com | Phone: 741-852-9630 | Address: 505 Boutique Dr.</p>
+        </section>
+
+        <section id="venue" class="hidden">
+            <h2>Venue</h2>
+            <p>Contact: venue@example.com | Phone: 745-354-4569 | Address: 909 xyz abc.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Thank you for Visiting Dream Wedding.</p>
+    </footer>
+
+    <script src="Services-Dream_Wedding.js"></script>
+</body>
+</html>

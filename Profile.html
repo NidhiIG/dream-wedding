@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Profile</h1>
+    </header>
+
+    <main>
+        <section class="profile-card">
+            <div class="profile-header">
+                <img src="default-avatar.png" alt="Profile Picture" id="profile-picture">
+                <h2 id="username">Nidhi Bhutada</h2>
+                <p id="email">nidhibhutada18@gmail.com</p>
+            </div>
+            <div class="profile-details">
+                <h3>Your Information</h3>
+                <p><strong>Phone:</strong> <span id="phone">8956882056</span></p>
+                <p><strong>Address:</strong> <span id="address">Karve Nagar, Pune.</span></p>
+            </div>
+            <button onclick="editProfile()">Edit Profile</button>
+        </section>
+
+        <!-- Edit Modal -->
+        <div class="modal hidden" id="edit-modal">
+            <div class="modal-content">
+                <h3>Edit Your Profile</h3>
+                <label for="edit-username">Name:</label>
+                <input type="text" id="edit-username" value="Nidhi Bhutada">
+                <label for="edit-email">Email:</label>
+                <input type="email" id="edit-email" value="nidhibhutada18@gmail.com">
+                <label for="edit-phone">Phone:</label>
+                <input type="text" id="edit-phone" value="8956882056">
+                <label for="edit-address">Address:</label>
+                <input type="text" id="edit-address" value="Karve Nagar, Pune.">
+                <button onclick="saveProfile()">Save</button>
+                <button onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Thank you for Visiting Dream Wedding.</p>
+    </footer>
+
+    <script src="Profile.js"></script>
+</body>
+</html>
